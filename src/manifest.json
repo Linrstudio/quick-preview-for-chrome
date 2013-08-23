@@ -1,0 +1,13 @@
+{
+  "name": "快速预览源代码",
+  "description": "快速预览选中代码或剪贴板中的源代码",
+  "icons": {
+      "16": "images/16x16.png",
+      "32": "images/32x32.png",
+      "48": "images/48x48.png"
+   },
+  "version": "1.0",
+  "permissions": ["contextMenus","clipboardRead"],
+  "background_page": "background.html"/*,
+  "content_security_policy": "default-src 'self'"*/
+}

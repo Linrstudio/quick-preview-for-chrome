@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Quick Preview 快速预览选中代码或剪贴板中的源代码</title>
+</head>
+<body>
+</body>
+<script id="qp_extra_js">
+~function(win){
+	var doc = win.document;
+	var QuickPreview = opener ? opener['QuickPreview'] : null;
+	if(QuickPreview){
+		document.write(QuickPreview["source_code"]);
+		document.body.removeChild(document.getElementById('qp_extra_js'));
+	}
+}(window);
+</script>
+</html>
