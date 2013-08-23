@@ -8,7 +8,7 @@
 
 ### 安装
 
-在 [Download](https://github.com/Linrstudio/quick-preview-for-chrome/tree/master/src 'Download') 下载 crx 文件后，在 Chrome 中进入 chrome://extensions/ 页面，将 crx 文件拖进去，完成安装。
+在 [Download](https://github.com/Linrstudio/quick-preview-for-chrome/tree/master/crx 'Download') 下载 crx 文件后，在 Chrome 中进入 chrome://extensions/ 页面，将 crx 文件拖进去，完成安装。
 按此步骤以避免提示：“无法添加来自此网站的应用、扩展和用户脚本”错误。
 
 
